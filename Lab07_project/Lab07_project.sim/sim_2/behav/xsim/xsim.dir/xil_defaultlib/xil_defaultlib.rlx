@@ -1,0 +1,8 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/Lab07_project.sim/sim_2/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv,1602177142,systemVerilog,,C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,,add3,,,,,,,,
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,1602179694,systemVerilog,,C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD_test.sv,,six_bit_BCD,,,,,,,,
+C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD_test.sv,1602181401,systemVerilog,,,,six_bit_BCD_test,,,,,,,,
