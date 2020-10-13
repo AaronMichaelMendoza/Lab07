@@ -1250,3 +1250,89 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_B
 // [GUI Memory]: 202 MB (+13836kb) [01:04:23]
 // HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 116 MB. Current time: 10/10/20, 11:56:03 PM CDT
 // WARNING: HEventQueue.dispatchEvent() is taking  1344 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  332037 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  21600455 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2171 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 90 MB. Current time: 10/11/20, 6:21:49 AM CDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3049 ms. Increasing delay to 9147 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  18525981 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 11:30:45 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1600 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2369 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 10620 ms. Increasing delay to 4000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1039 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 12:00:47 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  17248 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 12:30:49 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1209 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 1:00:50 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1565 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 1:30:51 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 2:00:51 PM CDT
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking 2098 ms to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 2:30:52 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 3:00:52 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 3:30:52 PM CDT
+// Elapsed time: 59326 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "eleven_bit_BCD.sv", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_BCD_wrapper.sv", 3); // m (l, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 231, 635); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 114 MB. Current time: 10/11/20, 4:00:53 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  8115422 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2842 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 114 MB. Current time: 10/11/20, 6:23:58 PM CDT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4928 ms. Increasing delay to 14784 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 17 ms. Decreasing delay to 2017 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  5917569 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  3664 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5922652 ms. Increasing delay to 17767956 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2117 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 114 MB. Current time: 10/11/20, 8:18:44 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1503135 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1968 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 89 MB. Current time: 10/11/20, 9:05:14 PM CDT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 9:35:11 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1343221 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/11/20, 10:05:12 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  21594243 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/12/20, 4:23:30 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  12610175 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/12/20, 7:53:48 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1300 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 89 MB. Current time: 10/12/20, 8:23:49 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  2915 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1275 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 88 MB. Current time: 10/12/20, 8:53:51 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  3947414 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1065 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 170 MB. Current time: 10/12/20, 10:04:30 AM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  3585 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2812 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  10545087 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2688 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1195 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 116 MB. Current time: 10/12/20, 1:05:17 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  1255 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 115 MB. Current time: 10/12/20, 1:35:12 PM CDT
+// Elapsed time: 78742 seconds
+selectCodeEditor("sseg1_BCD_wrapper.sv", 502, 773); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 497, 777); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("sseg1_BCD_wrapper.sv", 322, 441); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 122, 448); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 391, 440); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 510, 772); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 496, 781); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 500, 794); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 496, 783); // bP (w, cs)
+// Elapsed time: 23 seconds
+selectCodeEditor("sseg1_BCD_wrapper.sv", 562, 972); // bP (w, cs)
+selectCodeEditor("sseg1_BCD_wrapper.sv", 398, 997); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_BCD.sv", 2); // m (l, cs)
+// Elapsed time: 515 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sseg1_BCD_wrapper.sv", 3); // m (l, cs)
+// WARNING: HEventQueue.dispatchEvent() is taking  1074 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,001 MB. GUI used memory: 115 MB. Current time: 10/12/20, 2:05:12 PM CDT
+// WARNING: HEventQueue.dispatchEvent() is taking  267527 ms.

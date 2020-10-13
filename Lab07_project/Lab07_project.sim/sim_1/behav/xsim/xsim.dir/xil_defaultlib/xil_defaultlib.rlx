@@ -2,6 +2,12 @@
 2020.1
 May 27 2020
 20:09:33
-C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/Lab07_project.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv,1602177142,systemVerilog,,C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3_test.sv,,add3,,,,,,,,
-C:/Users/aaron_mendoza1/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3_test.sv,1602176977,systemVerilog,,,,add3_test,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv,1601923569,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,,mux2_4b,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD.sv,1602390033,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv,,sseg1_BCD,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv,1602533341,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv,,sseg1_bcd_wrapper,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv,1601923569,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3_test.sv,,sseg_decoder,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.sim/sim_1/behav/xsim/glbl.v,1602387488,verilog,,,,glbl,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv,1602535424,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv,,add3,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3_test.sv,1602387488,systemVerilog,,,,add3_test,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv,1602387488,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv,,eleven_bit_BCD,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,1602387488,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD.sv,,six_bit_BCD,,,,,,,,

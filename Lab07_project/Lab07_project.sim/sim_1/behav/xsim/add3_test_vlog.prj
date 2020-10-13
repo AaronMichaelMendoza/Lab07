@@ -1,6 +1,12 @@
 # compile verilog/system verilog design source files
 sv xil_defaultlib  \
 "../../../../codedirectory/add3.sv" \
+"../../../../codedirectory/eleven_bit_BCD.sv" \
+"../../../../../../Lab06/Lab06_project/codedirectory/mux2_4b.sv" \
+"../../../../codedirectory/six_bit_BCD.sv" \
+"../../../../../../Lab06/Lab06_project/codedirectory/sseg1_BCD.sv" \
+"../../../../../../Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv" \
+"../../../../../../Lab06/Lab06_project/codedirectory/sseg_decoder.sv" \
 "../../../../codedirectory/add3_test.sv" \
 
 # compile glbl module

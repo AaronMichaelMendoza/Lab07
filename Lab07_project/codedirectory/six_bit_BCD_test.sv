@@ -33,8 +33,8 @@ module six_bit_BCD_test();
         );
         
     initial begin
-    B[5:0]=6'b00000;
-    for (i=0; i < 6'b100000; i++) begin
+    B[5:0]=6'b000000;
+    for (i=0; i < 6'b111111; i++) begin
         B = i; 
         #10;
     end

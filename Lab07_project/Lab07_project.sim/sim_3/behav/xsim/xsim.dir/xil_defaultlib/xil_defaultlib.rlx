@@ -3,7 +3,11 @@
 May 27 2020
 20:09:33
 C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/eleven_bit_BCD_test.sv,1602388094,systemVerilog,,,,eleven_bit_BCD_test,,,,,,,,
+,,,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,,mux2_4b,,,,,,,,
+,,,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv,,sseg1_BCD,,,,,,,,
+,,,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv,,sseg1_bcd_wrapper,,,,,,,,
+,,,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/eleven_bit_BCD_test.sv,,sseg_decoder,,,,,,,,
 C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.sim/sim_3/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv,1602387488,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv,,add3,,,,,,,,
-C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv,1602387488,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/eleven_bit_BCD_test.sv,,eleven_bit_BCD,,,,,,,,
-C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,1602387488,systemVerilog,,,,six_bit_BCD,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv,1602537489,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv,,add3,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv,1602387488,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv,,eleven_bit_BCD,,,,,,,,
+C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv,1602387488,systemVerilog,,C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD.sv,,six_bit_BCD,,,,,,,,

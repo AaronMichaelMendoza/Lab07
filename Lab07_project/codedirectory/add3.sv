@@ -22,14 +22,18 @@
 
 module add3(
     input [3:0] num,
-    output reg [3:0] modnum
+    output [3:0] modnum
     );
     
+    reg [3:0] w;
+    
     always @* begin
-    if (num[3:0] > 4'b0100)  
-        modnum[3:0] = num[3:0] + 4'b0011;
+    if (num > 4'b0100)  
+        w = num + 4'b0011;
     else
-        modnum[3:0] = num[3:0];
+        w = num;
     end
+    
+    assign modnum = w;
         
 endmodule
