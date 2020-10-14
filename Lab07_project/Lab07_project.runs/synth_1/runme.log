@@ -17,35 +17,35 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 12996
+INFO: [Synth 8-7075] Helper process launched with PID 22408
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'sseg1_bcd_wrapper' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'sseg1_bcd_wrapper' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'mux2_4b' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'mux2_4b' (1#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'eleven_bit_BCD' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'add3' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'add3' (2#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'eleven_bit_BCD' (3#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'sseg1_BCD' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'sseg1_BCD' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'sseg_decoder' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'sseg_decoder' (4#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'sseg1_BCD' (5#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD.sv:23]
-INFO: [Synth 8-6155] done synthesizing module 'sseg1_bcd_wrapper' (6#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'sseg1_BCD' (5#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'sseg1_bcd_wrapper' (6#1572) [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1016.086 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -56,29 +56,29 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/sseg1_bcd_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1016.086 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:40 ; elapsed = 00:00:42 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -125,25 +125,25 @@ CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin w[0] with 1st driver pi
 CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin w[0] with 2nd driver pin 'GND' [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv:31]
 CRITICAL WARNING: [Synth 8-6858] multi-driven net w[0] is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv:31]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:50 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:14 ; elapsed = 00:01:17 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:14 ; elapsed = 00:01:17 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Timing Optimization : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1016.086 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -162,9 +162,9 @@ Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ERROR: [Synth 8-4485] pin sw[0] is connected to multiply driven net where other driver is constant
 ERROR: synthesis optimization failed, fatal insert_io failure.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:04 ; elapsed = 00:01:23 . Memory (MB): peak = 1015.730 ; gain = 0.000
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:43 . Memory (MB): peak = 1016.086 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Synthesis
 21 Infos, 0 Warnings, 21 Critical Warnings and 2 Errors encountered.
 synth_design failed
 ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
-INFO: [Common 17-206] Exiting Vivado at Mon Oct 12 15:52:31 2020...
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 14 14:51:24 2020...

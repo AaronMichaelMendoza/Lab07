@@ -86,13 +86,13 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv
   C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv
   C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv
   C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD.sv
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg1_BCD_wrapper.sv
   C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
