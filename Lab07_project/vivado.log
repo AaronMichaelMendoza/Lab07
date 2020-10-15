@@ -30,3 +30,31 @@ reset_run synth_1
 launch_runs synth_1 -jobs 4
 [Wed Oct 14 14:50:17 2020] Launched synth_1...
 Run output will be captured here: C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv
+add_files -norecurse {C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg_decoder.sv C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/mux2_4b.sv}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Oct 14 15:02:30 2020] Launched synth_1...
+Run output will be captured here: C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.runs/synth_1/runme.log
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/mux2_4b.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/mux2_4b.sv
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv
+export_ip_user_files -of_objects  [get_files C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv] -no_script -reset -force -quiet
+remove_files  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv
+add_files -norecurse {C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/mux2_4b.sv C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv}
+add_files -norecurse C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv
+set_property top sseg1_bcd_wrapper [current_fileset]
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Oct 14 15:07:20 2020] Launched synth_1...
+Run output will be captured here: C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.runs/synth_1/runme.log

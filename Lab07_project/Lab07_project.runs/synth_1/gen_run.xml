@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1602705017">
-  <File Type="PA-TCL" Name="sseg1_BCD_wrapper.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="sseg1_BCD_wrapper_drc_synth.rpt"/>
-  <File Type="REPORTS-TCL" Name="sseg1_BCD_wrapper_reports.tcl"/>
-  <File Type="RDS-RDS" Name="sseg1_BCD_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="sseg1_BCD_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="sseg1_BCD_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="sseg1_BCD_wrapper.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="sseg1_BCD_wrapper_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="sseg1_BCD_wrapper_timing_summary_synth.pb"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1602706040">
+  <File Type="PA-TCL" Name="sseg1_bcd_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="sseg1_bcd_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="sseg1_bcd_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="sseg1_bcd_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="sseg1_bcd_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="sseg1_bcd_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="sseg1_bcd_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="sseg1_bcd_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="sseg1_bcd_wrapper_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/codedirectory/eleven_bit_BCD.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../Lab06/Lab06_project/codedirectory/mux2_4b.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/codedirectory/six_bit_BCD.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../Lab06/Lab06_project/codedirectory/sseg_decoder.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/codedirectory/sseg1_BCD_wrapper.sv">
+    <File Path="$PPRDIR/codedirectory/sseg_decoder.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -53,7 +25,35 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/codedirectory/sseg1_BCD_wrapper.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/codedirectory/mux2_4b.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/codedirectory/six_bit_BCD.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/codedirectory/add3.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/codedirectory/eleven_bit_BCD.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -62,7 +62,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="sseg1_BCD_wrapper"/>
+      <Option Name="TopModule" Val="sseg1_bcd_wrapper"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">

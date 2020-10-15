@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.runs/synth_1/sseg1_BCD_wrapper.tcl"
+  variable script "C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/Lab07_project.runs/synth_1/sseg1_bcd_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -86,13 +86,13 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog -library xil_defaultlib -sv {
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/mux2_4b.sv
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab06/Lab06_project/codedirectory/sseg_decoder.sv
-  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg_decoder.sv
   C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/sseg1_BCD_wrapper.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/mux2_4b.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/six_bit_BCD.sv
   C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/add3.sv
+  C:/Users/ammic/OneDrive/Documents/GitHub/Lab07/Lab07_project/codedirectory/eleven_bit_BCD.sv
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -110,17 +110,17 @@ set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top sseg1_BCD_wrapper -part xc7a35tcpg236-1
+synth_design -top sseg1_bcd_wrapper -part xc7a35tcpg236-1
 OPTRACE "synth_design" END { }
 
 
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef sseg1_BCD_wrapper.dcp
+write_checkpoint -force -noxdef sseg1_bcd_wrapper.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file sseg1_BCD_wrapper_utilization_synth.rpt -pb sseg1_BCD_wrapper_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file sseg1_bcd_wrapper_utilization_synth.rpt -pb sseg1_bcd_wrapper_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

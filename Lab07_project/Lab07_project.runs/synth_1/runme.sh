@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log sseg1_BCD_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sseg1_BCD_wrapper.tcl
+EAStep vivado -log sseg1_bcd_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sseg1_bcd_wrapper.tcl
